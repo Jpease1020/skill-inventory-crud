@@ -1,0 +1,4 @@
+require 'rake/testskill'
+Rake::TestSkill.new do |t|
+  t.test_files = FileList['test/**/*_test.rb']
+end
